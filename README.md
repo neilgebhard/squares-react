@@ -1,4 +1,4 @@
-## Table of contents
+## Hover Squares App
 
 - [General info](#general-info)
 - [Technologies](#technologies)
@@ -23,3 +23,9 @@ $ cd ./squares-react
 $ npm install
 $ npm start
 ```
+
+## Demo
+
+The live demo is deployed on Netlify: https://hoversquares.netlify.app/
+
+![Homepage screenshot](screenshot.jpg)
