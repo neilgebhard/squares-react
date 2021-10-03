@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Square from "./Square";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const N_SQUARES = 2000;
+
+const squaresList = [];
+
+for (let i = 0; i < N_SQUARES; i++) {
+  squaresList.push(<Square />);
 }
+
+const App = () => {
+  return <div className="container">{squaresList}</div>;
+};
 
 export default App;
